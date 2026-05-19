@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP3-Lista de Filmes</title>
+    
+</head>
+<body>
+
+    <div class="container" id="loginContainer"> <!--login-->
+        <h1>Login</h1>
+
+        <input type="text" id="usuario" placeholder="Usuário">
+        <input type="password" id="senha" placeholder="Senha">
+
+        <button onclick="fazerLogin()">Entrar</button>
+
+        <p id="mensagemLogin" class="mensagem"></p>
+    </div>
+
+    <div class="container oculto" id="sistemaContainer"> <!--sistema-->
+        <h1> Lista de Filmes Favoritos</h1>
+
+        <div class="area-adicionar">
+            <input type="text" id="novoFilme" placeholder="Digite o nome do filme">
+
+            <div class="botoes">
+                <button onclick="adicionarFilmeFinal()">
+                    Adicionar no Final
+                </button>
+
+                <button onclick="adicionarFilmeInicio()">
+                    Adicionar no Início
+                </button>
+            </div>
+
+            <p id="mensagemFilme" class="mensagem"></p>
+        </div>
+
+        <ul id="listaFilmes"></ul>
+    </div>
+
+</body>
+</html>

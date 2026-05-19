@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #141414;
+    color: white;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    background-color: #1f1f1f;
+    width: 100%;
+    max-width: 500px;
+
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #e50914;
+    color: white;
+
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b20710;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #2a2a2a;
+
+    padding: 15px;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acoes {
+    display: flex;
+    gap: 8px;
+}
+
+.acoes button {
+    width: auto;
+    padding: 8px 12px;
+}
+
+.mensagem {
+    text-align: center;
+    color: #ff6b6b;
+    margin-top: 10px;
+}
+
+.oculto {
+    display: none;
+}
